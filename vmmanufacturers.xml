@@ -35,7 +35,7 @@
 	</description>
 	<scriptfile>script.php</scriptfile>
 	<files>
-		<file plugin="vmproducts">vmmanufacturers.php</file>
+		<file plugin="vmmanufacturers">vmmanufacturers.php</file>
     		<filename>index.html</filename>
 	</files>
 	<languages>
