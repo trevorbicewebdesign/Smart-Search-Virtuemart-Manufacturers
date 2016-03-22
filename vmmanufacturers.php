@@ -307,7 +307,7 @@ class plgFinderVmmanufacturers extends FinderIndexerAdapter {
 		$item->addTaxonomy('Type', 'VM Manufacturer');
 
 		// Add the category taxonomy data.
-		// $item->addTaxonomy('Manufacturer', $item->category, 1, 1);
+		$item->addTaxonomy('Manufacturer', $item->title, 1, 1);
 
 		// Add the language taxonomy data.
 		$item->addTaxonomy('Language', $item->language);
